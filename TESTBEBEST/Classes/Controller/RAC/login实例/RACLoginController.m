@@ -22,6 +22,7 @@
 
 @implementation RACLoginController
 
+// RACCommand 传递的是信号，在一个控制器中创建一个网络请求的信号，在另一个控制器中，通过command获取到这个信号然后订阅获取网络数据，真正实现了双工的工作模式，信息互相传递
 - (void)viewDidLoad {
     [super viewDidLoad];
     
