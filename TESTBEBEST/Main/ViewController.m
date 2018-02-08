@@ -76,6 +76,10 @@
     method06.className = @"RACLoginController";
     [self.methodsArray addObject:method06];
     
+    MethodExtension *method07 = [[MethodExtension alloc] initWithTitle:@"UIPageViewController"];
+    method07.className = @"PageViewController";
+    [self.methodsArray addObject:method07];
+    
     // 获取view的快照，比位图截图快，通常用于动画效果的制作
 //    NSLog(@"-----%@",self.view);
 //    UIView *v = [self.view snapshotViewAfterScreenUpdates:YES];

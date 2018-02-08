@@ -36,6 +36,8 @@
 		3FA15607200766D300559F86 /* RACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA15605200766D300559F86 /* RACViewController.m */; };
 		3FA15608200766D300559F86 /* RACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA15606200766D300559F86 /* RACViewController.xib */; };
 		3FA41B4F1FF2258D0090D9C2 /* UIColor+YP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA41B4E1FF2258D0090D9C2 /* UIColor+YP.m */; };
+		3FC102F1202950E800FEC71B /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC102EF202950E800FEC71B /* PageViewController.m */; };
+		3FC102F2202950E800FEC71B /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC102F0202950E800FEC71B /* PageViewController.xib */; };
 		3FDDA0B91FEA0F0800916D4B /* UIView+YP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA0B81FEA0F0800916D4B /* UIView+YP.m */; };
 		3FDDA0BC1FECA1F600916D4B /* NSData+YP.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDDA0BB1FECA1F600916D4B /* NSData+YP.m */; };
 		3FF41E3C1FCFA4740044F84C /* PredicateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF41E3A1FCFA4740044F84C /* PredicateViewController.m */; };
@@ -120,6 +122,9 @@
 		3FA15606200766D300559F86 /* RACViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACViewController.xib; sourceTree = "<group>"; };
 		3FA41B4D1FF2258D0090D9C2 /* UIColor+YP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YP.h"; sourceTree = "<group>"; };
 		3FA41B4E1FF2258D0090D9C2 /* UIColor+YP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YP.m"; sourceTree = "<group>"; };
+		3FC102EE202950E800FEC71B /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		3FC102EF202950E800FEC71B /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		3FC102F0202950E800FEC71B /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
 		3FDDA0B71FEA0F0800916D4B /* UIView+YP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YP.h"; sourceTree = "<group>"; };
 		3FDDA0B81FEA0F0800916D4B /* UIView+YP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YP.m"; sourceTree = "<group>"; };
 		3FDDA0BA1FECA1F600916D4B /* NSData+YP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+YP.h"; sourceTree = "<group>"; };
@@ -263,6 +268,9 @@
 				3F10BE831FFB67790046AAE6 /* TransionViewController.h */,
 				3F10BE841FFB67790046AAE6 /* TransionViewController.m */,
 				3F10BE851FFB67790046AAE6 /* TransionViewController.xib */,
+				3FC102EE202950E800FEC71B /* PageViewController.h */,
+				3FC102EF202950E800FEC71B /* PageViewController.m */,
+				3FC102F0202950E800FEC71B /* PageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -486,6 +494,7 @@
 				3FF41E421FD138C20044F84C /* DateUsingViewController.xib in Resources */,
 				3FA15608200766D300559F86 /* RACViewController.xib in Resources */,
 				3F2544501FBC1B5C0052F4D0 /* QRCodeViewController.xib in Resources */,
+				3FC102F2202950E800FEC71B /* PageViewController.xib in Resources */,
 				3F2544611FBC1BF50052F4D0 /* Main.storyboard in Resources */,
 				3FF41E3D1FCFA4740044F84C /* PredicateViewController.xib in Resources */,
 				3F2544651FBC1D760052F4D0 /* Assets.xcassets in Resources */,
@@ -576,6 +585,7 @@
 				3FDDA0B91FEA0F0800916D4B /* UIView+YP.m in Sources */,
 				3F10BE861FFB67790046AAE6 /* TransionViewController.m in Sources */,
 				3F63C09B201B0B840067677B /* TanLoginViewModel.m in Sources */,
+				3FC102F1202950E800FEC71B /* PageViewController.m in Sources */,
 				3FA15607200766D300559F86 /* RACViewController.m in Sources */,
 				3F63C08E201864C30067677B /* DelegateView.m in Sources */,
 				3F10BE8B1FFB68300046AAE6 /* YPScaleTransition.m in Sources */,
